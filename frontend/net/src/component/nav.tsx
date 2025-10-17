@@ -1,6 +1,10 @@
 // Nav.jsx
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 export default function Nav() {
+  const [chan,setchan]=useState()
+  const navigate=useNavigate()
+  
   return (
     <nav className="flex justify-between items-center p-4  mb-3.5 h-16">
       <h1 className=" font-bold text-red-600 text-4xl ml-[200px] ">MYNETFLIX</h1>

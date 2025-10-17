@@ -7,10 +7,12 @@ import Signup from './pages/signup';
 import Home from './pages/home';
 import Login from './pages/login';
 import { Welc } from './component/welcome';
-
+import { Next } from './pages/next';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Sent from './component/sent';
+import Sec from './component/second';
+import { Final } from './component/finally';
 
 function App() {
   return (
@@ -36,6 +38,9 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/welcome" element={<Welc />} />
               <Route path='/sent' element={<Sent/>}/>
+              <Route path='/next' element={<Next/>}/>
+              <Route path="/second" element={<Sec/>}/>
+              <Route path="finally" element={<Final/>}/>
             </Routes>
 
             {/* Toast notifications */}
