@@ -52,7 +52,7 @@ function Sec() {
 
           {/* Next Button */}
           <button className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-md text-lg transition">
-           <Link to="finally"> Next</Link>
+           <Link to="/finally"> Next</Link>
           </button>
         </div>
       </main>
